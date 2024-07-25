@@ -1,0 +1,207 @@
+body {
+  font-family: cursive;
+  margin: 0;
+  background-color: rgb(0, 0, 0);
+}
+
+.navhead {
+  background-color: #1099b4e7;
+  padding: 5px ;
+  color: black;
+  height: 55px;
+}
+
+.navdiv a {
+  
+  color: rgb(17, 16, 16);
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 20px;
+  padding: 8px 18px;
+  display: inline-block;
+  border: 0px solid white;
+  border-radius: 6px;
+  transition: background-color 0.3s, color 0.3s;
+}
+.btn1{
+   width: 150px;
+   height: 60px;
+   font-size: 20px;
+   background-color: #1099b4e7;
+   border-radius: 7px;
+   border: none;
+}
+
+.navdiv a:hover {
+  background-color: #1b1a1a;
+  color: rgb(255, 255, 255);
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  /* text-align: center; */
+  flex-wrap: wrap;
+  padding-left: 150px;
+  margin-top: 100px;
+  
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-right: 100px;
+}
+
+
+.btn1:hover {
+   color: #1099b4e7;
+   background-color: rgb(0, 0, 0);
+  
+}
+.name {
+  font-family: cursive;
+  font-size: 35px;
+}
+.pro {
+  background-color: #1099b4e7;
+}
+h3
+{
+  color: rgb(33, 56, 94);
+  font-size: 40px;
+  font-family: cursive;
+}
+.skill{
+  width: 200px;
+  height: 30px;
+  color: rgb(0, 0, 0);
+  font-size: large;
+  margin-left: 600px;
+  margin-top: 70px;
+  font-family: cursive;
+}
+
+.cards{
+  background-color: #1099b4e7;
+  color: #1b1a1a;
+  width: 500px;
+  height: auto;
+  display: inline-block;
+  margin-top: 50px;
+}
+.tab {
+  font-family: cursive;
+  margin-left: 40px;
+  font-size: 30px;
+  padding: 7px;
+  border-color: black;
+}
+
+.styled-table {
+  background-color:  rgba(16, 153, 180, 0.906);
+  border-collapse: collapse;
+  border-spacing: 10px;
+  width: 100%;
+  border-radius: 0px;
+}
+
+.styled-table th, .styled-table td {
+  border: 1.8px solid rgb(57, 55, 55);
+  padding: 7px;
+  text-align: center;
+}
+.edu{
+  font-family: cursive;
+  
+}
+
+.edu{
+  font-size: 40px;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.skill{
+  background-color: #000000e7;
+  width: 500px;
+  color: yellow;
+  height: 60px;
+  padding-left: 400px;
+  padding-top: px;
+  position: relative;
+  right: 150px;
+}
+.lang {
+  background:linear-gradient(to left,rgb(21, 19, 19),  rgba(16, 153, 180, 0.906));
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: row;
+  justify-content: center-;
+  padding: 15px; 
+  gap: 80px; 
+  margin-top: 50px;
+
+}
+
+.section {
+  display: flex;
+  flex-direction: column; 
+  gap: 10px; 
+}
+
+.font {
+    font-size: 25px;
+    margin-bottom: 0px;
+    background-color: rgb(255, 119, 0);
+    width: 340px;
+    height: 50PX;
+    padding-left: 70px;
+    padding-top: 8px;
+    color: #0a0a0ae7;
+}
+.font1{
+  font-size: 30px;
+  width: 100px;
+  height: 50PX;
+  padding-left: 40px;
+  padding-top: 4px;
+  background-color: yellow;
+  margin-left: 100PX;
+  border-radius: 5PX;
+  color: black;
+}
+.skillpg{
+   position: relative;
+   right: 150px;
+}
+.con{
+   font-size: 19px;
+    width: 800px;
+    height: 230px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    margin-left: 400px;
+    padding-top: 20px;
+    border-radius: 10px;
+    margin-bottom: 200px;
+}
+.conspan{
+  color: rgb(255, 255, 255);
+  padding-left: 200px;
+}
+
+
+/*  */
+.btnlink{
+  background-color: yellow;
+  font-size: 20px;
+  width: 120px;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+}
+.btnlink:hover{
+  background:linear-gradient(rgb(0, 255, 229),rgb(0, 255, 72));
+  box-shadow: 0px 4px 8px rgba(14, 236, 252, 0.2);
+}
