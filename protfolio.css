@@ -15,6 +15,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: end;
+  
 }
 
 .navdiv a {
@@ -278,7 +279,7 @@ h3 {
 {
     /* position:absolute; */
     bottom: 40px;
-    width: 250px;
+    width: 400px;
     display: flex;
     gap: 30px;
     padding-left: 2px;
@@ -306,5 +307,6 @@ h3 {
   font-size: 30px;
   font-weight: 400;
    position: relative;
-   top
+   bottom:400px;
+   left: 1100px;
 }
