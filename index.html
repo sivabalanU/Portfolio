@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap"
       rel="stylesheet"
     />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -18,124 +22,131 @@
         <div class="navdiv">
           <a href="#home">Home</a>
           <a href="#skill">Skill</a>
-          <a href="#edu">Education</a>
+          <a href="#edu">Project</a>
           <a href="#contact">Contact</a>
         </div>
       </nav>
     </header>
-    <div class="info">
+    <div class="info" id="home">
       <div class="profile">
-        <img src="/Images/logo.png" alt="Prfile Photo" />
+        <img
+          src="/Images/programming-skills.png"
+          alt="Profile Photo"
+          width="500"
+          height="500px"
+          class="img"
+        />
       </div>
       <div class="intro">
-        <span class="name"> Hi There I'm Sivabalan</span>
+        Hi There I'm <span class="name">Sivabalan</span>
         <h3>
           <marquee behavior="" direction="left"
             >I am Software Developer</marquee
           >
         </h3>
         <button class="btn1">About Me</button>
-      </div>
-    </div>
 
-    <center>
-      <div class="edu" id="edu">
-        <span>Education</span>
-      </div>
-    </center>
-    <div class="tab">
-      <table class="styled-table">
-        <tr>
-          <th>Institution</th>
-          <th>Year</th>
-          <th>Course / Degree</th>
-          <th>Percentage%</th>
-        </tr>
-        <tr>
-          <td>LMC School</td>
-          <td>2020</td>
-          <td>SSLC</td>
-          <td>82</td>
-        </tr>
-        <tr>
-          <td>LMC School</td>
-          <td>2022</td>
-          <td>HSC</td>
-          <td>92</td>
-        </tr>
-        <tr>
-          <td>Skct College</td>
-          <td>2026</td>
-          <td>ECE</td>
-          <td>7.8</td>
-        </tr>
-      </table>
-    </div>
-
-    <div class="skill" id="skill">
-      <h1>Skills</h1>
-    </div>
-    <div class="lang">
-      <div class="section">
-        <h2 class="font">Programming Skills</h2>
-        <h3 class="font1">C++</h3>
-        <h3 class="font1">Java</h3>
-        <h3 class="font1">SQL</h3>
-        <h3 class="font1">C#</h3>
-      </div>
-      <div class="section">
-        <h2 class="font">Web Design Skills</h2>
-        <h3 class="font1">HTML</h3>
-        <h3 class="font1">CSS</h3>
-      </div>
-      <div class="section">
-        <h2 class="font">Front-End Development</h2>
-        <h3 class="font1">React</h3>
-        <div class="skillpg">
-          <img src="/Images/programming-skills.png" alt="" />
+        <div class="about">
+          <p>
+            I am a passionate software developer with a unique blend of skills
+            across various programming languages, including C++, Java, SQL,
+            HTML, CSS, React, and C#
+          </p>
         </div>
       </div>
     </div>
-    <div>
-      <img src="/Images/c++.png" alt="" class=" logo logo1">
-      <img src="/Images/java.jpeg" alt="" class="logo logo2">
-      <img src="/Images/sql.jpeg" alt="" class="logo logo3">
-      <img src="/Images/c#.png" alt="" class="logo logo4">
-      <img src="/Images/html..png" alt="" class="logo logo5">
-      <img src="/Images/css.jpeg" alt="" class="logo logo6">
-      <img src="/Images/react.png" alt="" class="logo7">
-    </div>
-    <div class="project">
-            
-    </div>
-    <div id="contact">
-      <h1>Contact</h1>
-      <div class="con">
-        <h2>
-          <div class="conspan">
-            Email : 
-            sivabalan202137@gmail.com
-          </div>
-        </h2>
-        <h2>
-          <div class="conspan"> 
-            Phone Number :
-            9360453737</div>
-        </h2>
-        <h2>
-          <div class="conspan">
 
-            Linked In :
-            <a
-            href="https://www.linkedin.com/in/siva-balan-0b9b28255"
-            target="_blank">
-            
-              <button type="button" class="btnlink">Linked In</button>
-          </a>
-          </h2>
+    <h1 class="container1" id="skill">Skills</h1>
+    <div class="container">
+      <div class="skill-box">
+        <h2>Frontend</h2>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>React</li>
+        </ul>
       </div>
+      <div class="skill-box">
+        <h2>Backend</h2>
+        <ul>
+          <li>Java</li>
+          <li>C#</li>
+          <li>SQL</li>
+          <li>MongoDB</li>
+        </ul>
+      </div>
+      <div class="skill-box">
+        <h2>Programming Languages</h2>
+        <ul>
+          <li>C++</li>
+          <li>Java</li>
+          <li>C#</li>
+        </ul>
       </div>
     </div>
-    <script src="index.js"></script>
+    <center>
+      <h3>Projects</h3>
+    </center>
+    <div class="project"  id="edu">
+      <div class="pro_logo">
+        <img src="/Images/project_logo.png" alt="" width="600px" />
+      </div>
+      <div class="pro-about">
+        <h2>Agro E-Commerce</h2>
+        <p>
+          An e-commerce website for agricultural products, designed with HTML
+          and CSS for user-friendly shopping experiences.
+        </p>
+        <h2>MedHub</h2>
+        <p>
+          A healthcare management system built with React, facilitating
+          streamlined patient and service management.
+        </p>
+        <h1>Intenship</h1>
+        <p>
+          Encapsulate IT Internship: Developed a vehicle service web
+          application, enhancing practical skills in software development and
+          project management.
+        </p>
+      </div>
+    </div>832
+
+   
+
+    <div class="con">
+      <h1>Contact Me</h1>
+    </div>
+    <div class="contact-form-container">
+     
+      <div class="contact-form">
+        <div class="get">
+          <h1>Get In <span>Touch</span></h1>
+        </div>
+          <form action="https://formsubmit.co/ntamilselvan25@gamil.com" method="post">
+              <label for="name"><i class="fa fa-user"></i> Name</label>
+              <input type="text" id="name" name="name" required>
+              
+              <label for="email"><i class="fa fa-envelope"></i> Email</label>
+              <input type="email" id="email" name="email" required>
+              
+              <label for="phone"><i class="fa fa-phone"></i> Phone</label>
+              <input type="tel" id="phone" name="phone" required>
+              
+              <label for="message"><i class="fa fa-comment"></i> Message</label>
+              <textarea id="message" name="message" required></textarea>
+              
+              <button type="submit"><i class="fa fa-paper-plane"></i> Submit</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="home-cs">
+        <p class="p1">Contact Details</p>
+        <a href="https://www.linkedin.com/in/siva-balan-0b9b28255/" class="home-cs a"><i class='bx bxl-linkedin-square'></i></a>
+        <a href="https://github.com/sivabalanU" class="home-cs a"><i class='bx bxl-github' ></i></a>
+        <a href="https://www.instagram.com/" class="home-cs a"><i class='bx bxl-instagram' ></i></a>
+      </div>
+      
+       
   </body>
 </html>
